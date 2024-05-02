@@ -11,6 +11,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>demo</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -38,7 +39,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-war-plugin</artifactId>
-				<version>3.4.0</version>  <!-- Убедитесь, что используете актуальную версию -->
+				<version>3.4.0</version>
 			</plugin>
 		</plugins>
 	</build>
