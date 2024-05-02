@@ -4,8 +4,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class WorldController {
-    @GetMapping("/")
+    @GetMapping("/world")
     public String home() {
-        return "Привет, мир!";
+        return "Привет, мур!";
     }
 }
