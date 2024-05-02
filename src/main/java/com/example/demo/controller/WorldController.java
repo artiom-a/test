@@ -6,6 +6,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class WorldController {
     @GetMapping("/world")
     public String home() {
-        return "Привет, мир  !";
+        return "Привет, мир !";
     }
 }
